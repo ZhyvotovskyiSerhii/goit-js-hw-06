@@ -2,7 +2,7 @@
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
-con
+
 const colors = {
   body: document.querySelector("body"),
   btn: document.querySelector(".change-color"),
