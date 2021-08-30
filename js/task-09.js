@@ -11,6 +11,6 @@ const colors = {
 colors.btn.addEventListener("click", changeColor);
 function changeColor() {
   const color = getRandomHexColor();
-  bodyElement.style.backgroundColor = color;
-  colors.color.textContent = color;
+
+colors.color.textContent = color;
 }
