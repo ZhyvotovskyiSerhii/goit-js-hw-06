@@ -26,18 +26,3 @@ const forms = {
   }
 
 
-  const form = document.querySelector(".login-form");
-const email = document.querySelector("[name='email']");
-const password = document.querySelector("[name='password']");
-document.querySelector(".login-form").addEventListener("submit", (event) => {
-  event.preventDefault();
-  if (email.value === "" || password.value === "") {
-    alert("All fields must be filled");
-  }
-  const formElements = {
-   Email:  form.elements.email.value,
-   Password: form.elements.password.value,
-  }  
-  console.log(formElements);
-  event.currentTarget.reset();
-})
